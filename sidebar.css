@@ -1,0 +1,242 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(255, 255, 255);
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  cursor: pointer;
+ }
+ .sidebar-link{
+   height: 75px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 15px;
+ }
+ .sidebar-link:hover{
+  background-color: rgb(236, 236, 236);
+ }
+ .z-icon{
+  height: 68px;
+ }
+ .sidebar-link img{
+ height: 25px;
+ margin-bottom: 4px;
+ }
+ .sidebar-link div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+ }
+ .category-list{
+  background-color: rgb(255, 255, 255);
+  height: 37px;
+  margin-top: 56px;
+  margin-right: 20px;
+  margin-left: 79px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+ }
+ .all-button{
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 50px;
+  background-color:black;
+  color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+ }
+ .gaming-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 80px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+ }
+ .movie-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 80px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+ }
+ .music-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 80px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+ }
+ .recently-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 150px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .web-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 150px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .oop-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 200px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .mobile-games{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 120px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .films-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 120px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .action-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 140px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .new-to-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  width: 110px;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+  flex-direction: column;
+  flex: none;
+ }
+ .last-button{
+  border: none;
+  margin-top: 4px;
+  height: 30px;
+  cursor: pointer;
+  background-color:rgb(238, 238, 238);
+  color: rgb(16, 16, 16);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: -23px;
+  font-family: Roboto ,Arial;
+  font-weight: 500;
+  font-size: 14px;
+ }
+
+ @media (max-width: 500px){
+  .sidebar{
+    display: none;
+  }
+  .category-list{
+    margin-right: -120px;
+    left: 0;
+  }
+  .video-grid{
+    margin-right: -120px;
+    width: 100%;
+}
+ }
