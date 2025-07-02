@@ -11,5 +11,5 @@ The clone focuses on replicating YouTube’s visual design, layout, and responsi
 * Reusable Components – Cards for video previews and navigation
 * Learning-Based – Built to strengthen HTML and CSS fundamentals
 
-- Tools & Technologies(🛠️):
+- Tools & Technologies: 
 HTML5 | CSS3 | Responsive Design – Mobile-friendly layout using media queries | Version Control
